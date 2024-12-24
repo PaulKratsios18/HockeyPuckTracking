@@ -1,0 +1,8 @@
+# YOLOv5 dataset configuration
+path: yolo_dataset  # dataset root directory
+train: images/train  # train images
+val: images/val  # validation images
+
+# Classes
+names:
+  0: hockey_puck 

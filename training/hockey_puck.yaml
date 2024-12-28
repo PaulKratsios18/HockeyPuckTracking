@@ -1,8 +1,8 @@
-# YOLOv5 dataset configuration
-path: yolo_dataset  # dataset root directory
-train: images/train  # train images
-val: images/val  # validation images
+# YOLOv5 configuration for hockey puck detection
+path: /Users/paulkratsios/CodeProjects/HockeyPuckTracking/yolo_dataset  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
 
 # Classes
-names:
-  0: hockey_puck 
+nc: 1  # number of classes
+names: ['hockey_puck']  # class names 

@@ -5,8 +5,8 @@ def main():
     # Initialize video capture
     cap = cv2.VideoCapture(0)  # Use 0 for webcam or video file path
     
-    # Initialize tracker
-    tracker = PuckTracker('runs/train/hockey_puck_detector/weights/best.pt')
+    # Initialize tracker with correct path to model
+    tracker = PuckTracker('runs/detect/hockey_puck_detector6/weights/best.pt')
     
     while True:
         ret, frame = cap.read()

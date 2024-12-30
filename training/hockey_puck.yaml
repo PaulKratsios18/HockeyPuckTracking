@@ -1,5 +1,5 @@
-# YOLOv5 configuration for hockey puck detection
-path: /Users/paulkratsios/CodeProjects/HockeyPuckTracking/yolo_dataset  # dataset root dir
+# YOLOv8 configuration for hockey puck detection
+path: /Users/paulkratsios/Library/Mobile Documents/com~apple~CloudDocs/Documents/Code Projects/HockeyPuckTracking/yolo_dataset  # dataset root dir (absolute path)
 train: images/train  # train images (relative to 'path')
 val: images/val  # val images (relative to 'path')
 
